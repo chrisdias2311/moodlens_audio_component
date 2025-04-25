@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configure API key
-genai.configure(api_key="AIzaSyAIzUy8Sku93YnxhQRGEWm4LXCHLL1u61k")
+genai.configure(api_key="AIzaSyDMMdpsC47CIwgXPGM9wkOGoS-HIwJLgWA")
 
 prompt = """Analyze the following audio and identify the student's most likely emotion
       (Choose from: surprised, confused, happy, bored).
